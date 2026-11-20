@@ -1,5 +1,5 @@
 node_modules/
 dist/
-/public/textures/
-/jol-cubemap-16k/
+/public/textures
+/jol-cubemap-16k
 .DS_Store
