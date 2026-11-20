@@ -1,0 +1,17 @@
+{
+  "name": "Jol",
+  "description": "A sapphire ocean planet",
+  "baseColor": [0.19, 0.45, 0.77],
+  "sunDirection": [-1, 1, -1],
+  "background": [0.02, 0.03, 0.065],
+  "textures": {
+    "baseUrl": "../textures/jol/",
+    "overview": "jol-parent/overview/jol_{face}.png",
+    "detail": {
+      "tileSize": 1024,
+      "tilesPerFace": 16,
+      "parent": "jol-parent/{face}/{x}-{y}.png",
+      "child": "jol-child/{face}/{qx}-{qy}/{x}-{y}.webp"
+    }
+  }
+}

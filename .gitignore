@@ -1,5 +1,6 @@
 node_modules/
 dist/
 /public/textures
+/masters
 /jol-cubemap-16k
 .DS_Store
